@@ -7,6 +7,8 @@ Visualising usage of Python and Java throughout the world using [WebGL Globe](ht
 
 Data taken from [GitHub Archive](http://www.githubarchive.org/) dataset up on [Google BigQuery](https://developers.google.com/bigquery/).
 
+Initially I wanted to compare Python, Ruby and Java, but the data was not at all good (yes, I made mistakes but that's the good thing about learning, you are free to make mistakes).
+
 Query used to filter the data:
 
     SELECT repository_name, actor_attributes_location, repository_forks
